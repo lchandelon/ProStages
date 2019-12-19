@@ -1,3 +1,6 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
 <h1>Bienvenue sur ProStage ! </h1>
 <p>
 	Vous trouverez ci-dessous les derniers stages ajoutés sur ProStage.
@@ -13,3 +16,4 @@
 		<a href="{{path('pro_stages_stages',{id:3})}}">Stage3</a>
 	</li>
 </ul>
+{% endblock %}
