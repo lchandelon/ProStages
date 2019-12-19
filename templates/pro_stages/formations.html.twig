@@ -1,10 +1,38 @@
 {%extends 'base.html.twig' %}
 
 {% block titrePage %}
-<h1> Formations </h1>
+<h1> Stages triés par formations </h1>
 {% endblock %}
 {% block contenuPage %}
-<p>
-	Cette page affichera la liste des formations
-</p>
+<h2>
+	Titre du stage
+</h2>
+<h6> Nom entreprise </h3>
+<h6> Nom formation </h3>
+<ul>
+	<li>
+		<a href="{{path('pro_stages_stages',{id:2})}}">Stage2</a>
+	</li>
+</ul>
+
+<h2>
+	Titre du stage
+</h2>
+<h6> Nom entreprise </h3>
+<h6> Nom formation </h3>
+<ul>
+	<li>
+		<a href="{{path('pro_stages_stages',{id:3})}}">Stage3</a>
+	</li>
+</ul>
+<h2>
+	Titre du stage
+</h2>
+<h6> Nom entreprise </h3>
+<h6> Nom formation </h3>
+<ul>
+	<li>
+		<a href="{{path('pro_stages_stages',{id:1})}}">Stage1</a>
+	</li>
+</ul>
 {% endblock %}

@@ -1,9 +1,14 @@
 {%extends 'base.html.twig' %}
 
 {% block contenu %}
-<h1> Stage {{id}} </h1>
+<h1> TitreStage {{id}} </h1>
 
 <p>
-	Cette page affichera le descriptif du stage {{id}}.
+	Nom: nom{{id}}<br/>
+	Activité: Activité{{id}}<br/>
+	Adresse de l'entreprise: Adresse{{id}}<br/>
+	Description: description{{id}}<br/>
+	Fromation(s):Formation{{id}}<br/>
+	Email: email{{id}}
 </p>
 {% endblock %}
